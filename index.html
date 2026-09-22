@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agam Kalamandal | MES Abasaheb Garware College, Pune</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="yellow.css">
+</head>
+<body class="intro-body">
+
+    <!-- Shutter Intro Screen -->
+    <div class="shutter-overlay" id="shutterOverlay">
+        <div class="shutter-content">
+            
+            <!-- Clean Royal Cultural Emblem -->
+            <div class="royal-emblem">
+                <div class="mandala-ring-outer"></div>
+                <div class="mandala-ring-inner"></div>
+                <div class="star s1"><i class="fas fa-sparkle"></i></div>
+                <div class="star s2"><i class="fas fa-sparkle"></i></div>
+                
+                <div class="emblem-core">
+                    <div class="core-glow"></div>
+                    <div class="nataraj-icon-box">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="emblem-brand">AGAM KALAMANDAL</div>
+                    <div class="emblem-divider"></div>
+                    <div class="emblem-sanskrit">M.E.S. Abasaheb Garware College, Pune</div>
+                </div>
+            </div>
+
+            <h1 class="shutter-title">AGAM KALAMANDAL</h1>
+            <p class="shutter-subtitle">The Cultural Wing of Excellence & Tradition</p>
+
+            <!-- Enter Button to slide up the shutter -->
+            <button class="enter-btn" onclick="openPortal()">
+                <span>Enter Portal</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Background Preview / Transition Target -->
+    <main class="portal-background-preview">
+        <p>Loading Abasaheb Garware College Cultural Hub...</p>
+    </main>
+
+    <script>
+        function openPortal() {
+            const overlay = document.getElementById('shutterOverlay');
+            overlay.classList.add('slide-up');
+            // Redirect to home.html after transition animation finishes
+            setTimeout(() => {
+                window.location.href = 'home.html';
+            }, 800);
+        }
+    </script>
+</body>
+</html>

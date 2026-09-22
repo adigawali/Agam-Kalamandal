@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us & Legacy | Agam Kalamandal - M.E.S. Abasaheb Garware College, Pune</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="yellow.css">
+    <style>
+        .about-custom-bg {
+            background: radial-gradient(circle at top right, #1a102f, #0b0b14 60%, #050508);
+            position: relative;
+        }
+        .about-custom-bg::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(138,43,226,0.04) 0%, rgba(255,51,102,0.02) 100%);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="about-custom-bg">
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="home.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <span>AGAM <span>KALAMANDAL</span></span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <nav class="nav-menu">
+                <a href="home.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link active"><i class="fas fa-university"></i> About Us</a>
+                <a href="home.html#arts" class="nav-link"><i class="fas fa-music"></i> Art Forms</a>
+                <a href="#" class="nav-btn" onclick="alert('Main Committee Members portal is coming soon!'); return false;"><i class="fas fa-shield-alt"></i> Committee Portal</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header Hero -->
+    <section class="hero" style="height: 60vh; min-height: 420px; background: linear-gradient(rgba(11,11,20,0.7), rgba(11,11,20,0.95)), url('https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-up" style="padding-top: 40px;">
+            <div class="badge" style="background: rgba(138,43,226,0.2); border-color: rgba(138,43,226,0.4); padding: 0.5rem 1.2rem;">
+                <i class="fas fa-university" style="color: var(--gold);"></i> Maharashtra Education Society • Deccan Gymkhana, Pune
+            </div>
+            <h1 style="font-family: 'Playfair Display', serif; font-style: italic; font-weight: 700; font-size: clamp(2.5rem, 4.5vw, 4.2rem); color: #fff; text-shadow: 0 4px 20px rgba(0,0,0,0.6); margin-top: 0.5rem; margin-bottom: 1rem;">
+                "Where Tradition Inspires Innovation"
+            </h1>
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; letter-spacing: 0.5px; color: var(--text-muted); max-width: 700px; margin: 0 auto;">
+                Steeped in a century-old heritage of nationalist ideals, academic rigor, and unmatched cultural brilliance under the glorious banner of M.E.S.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main About Content Section with Official Local MES Emblem -->
+    <section class="about-snippet" style="padding: 7rem 5%; background: transparent;">
+        <div class="about-container">
+            <div class="about-text animate-up">
+                <span style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; font-weight: 700;">Foundational Excellence</span>
+                <h2 style="font-family: 'Cinzel', serif; margin-top: 0.6rem; font-size: clamp(1.8rem, 2.5vw, 2.3rem); line-height: 1.3;">M.E.S. Abasaheb Garware College</h2>
+                <p style="font-size: 0.98rem; color: var(--text-muted); line-height: 1.8;">
+                    Established in 1960 by the historic <strong>Maharashtra Education Society</strong> (founded in 1860), Abasaheb Garware College has grown into a premier institution located in the heart of Pune at Deccan Gymkhana. The college stands as a powerful testament to uncompromising educational values, blending state-of-the-art scientific infrastructure with deep-rooted cultural values.
+                </p>
+                <p style="font-size: 0.98rem; color: var(--text-muted); line-height: 1.8;">
+                    Within this dynamic academic landscape, <strong>Agam Kalamandal</strong> serves as the vibrant cultural heartbeat. We provide students with rigorous professional mentorship, rehearsal spaces, and performance platforms across classical vocals, folk arts, theater, and instrumental music, consistently dominating inter-collegiate youth festivals.
+                </p>
+                
+                <div class="feature-list" style="margin-top: 2rem;">
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt" style="color: var(--primary-light);"></i>
+                        <span>Operating under the prestigious 166-year legacy of Maharashtra Education Society</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-music" style="color: var(--primary-light);"></i>
+                        <span>Dedicated professional training modules for classical music, drama, and folk traditions</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-trophy" style="color: var(--primary-light);"></i>
+                        <span>Consistent winners and finalists across Maharashtra's most prestigious youth cultural events</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Official Local MES Society Emblem Display -->
+            <div class="about-visual animate-up" style="display: flex; justify-content: center; align-items: center;">
+                <div style="position: relative; width: 340px; height: 340px; border-radius: 50%; overflow: hidden; border: 4px solid var(--gold); box-shadow: 0 0 35px rgba(243,229,171,0.2); background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 1.5rem;">
+                    <img src="Images/mes pic.png" alt="Maharashtra Education Society Official Emblem" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Institutional Milestones & Informational Grid Section -->
+    <section style="padding: 5rem 5%; background: rgba(8, 8, 16, 0.6); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 3.5rem;">
+            <span style="color: var(--gold); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: 700;">Institutional Depth</span>
+            <h2 style="font-family: 'Cinzel', serif; margin-top: 0.5rem;">Pillars of Our Academic & Cultural Ecosystem</h2>
+            <p>Comprehensive growth fostered through specialized departments, active student societies, and state-of-the-art facilities.</p>
+        </div>
+
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <div style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 2.5rem; border-radius: 16px; backdrop-filter: blur(10px);">
+                <div style="font-size: 2rem; color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-graduation-cap"></i></div>
+                <h3 style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: #fff; margin-bottom: 0.8rem;">Multidisciplinary Excellence</h3>
+                <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">Offering top-tier undergraduate and postgraduate programs in science, arts, commerce, and computer applications with dedicated research laboratories.</p>
+            </div>
+
+            <div style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 2.5rem; border-radius: 16px; backdrop-filter: blur(10px);">
+                <div style="font-size: 2rem; color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-theater-masks"></i></div>
+                <h3 style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: #fff; margin-bottom: 0.8rem;">Cultural Infrastructure</h3>
+                <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">Fully equipped acoustically treated practice rooms, high-grade musical instruments, and massive auditorium spaces for grand theatrical productions.</p>
+            </div>
+
+            <div style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 2.5rem; border-radius: 16px; backdrop-filter: blur(10px);">
+                <div style="font-size: 2rem; color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-users"></i></div>
+                <h3 style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: #fff; margin-bottom: 0.8rem;">Mentorship & Leadership</h3>
+                <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.7;">Guided by veteran faculty members and accomplished alumni student coordinators who train the next generation with rigorous discipline.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distinguished Alumni Circle Section with Local Image Paths -->
+    <section class="stats-section" style="background: transparent; padding: 7rem 5%;">
+        <div class="section-header" style="margin-bottom: 4rem;">
+            <span style="color: var(--gold); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: 700;">Our Living Legacy</span>
+            <h2 style="font-family: 'Cinzel', serif; margin-top: 0.5rem;">Distinguished Alumni Circle</h2>
+            <p>Garware College and the M.E.S. family have sculpted legendary leaders, iconic actors, classical maestros, and statesmen who shaped the modern nation.</p>
+        </div>
+
+        <div class="stats-container" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2.5rem;">
+            
+            <!-- Alumni 1: Vilasrao Deshmukh -->
+            <div class="stat-card" style="text-align: left; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 1.8rem; background: var(--card-bg); border-color: var(--border-color);">
+                <div style="width: 110px; height: 110px; border-radius: 50%; overflow: hidden; border: 3px solid var(--gold); margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.5);">
+                    <img src="Images/vilasrao deshmukh.jpg" alt="Late Vilasrao Deshmukh" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-size: 1.25rem; font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center; color: #fff;">Late Vilasrao Deshmukh</h3>
+                <p style="font-size: 0.78rem; color: var(--gold); margin-bottom: 1rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Former Chief Minister of Maharashtra & Union Minister</p>
+                <p style="font-size: 0.88rem; color: var(--text-muted); text-align: center; line-height: 1.6;">A revered statesman whose visionary governance and lifelong commitment to public service remain an enduring inspiration.</p>
+            </div>
+
+            <!-- Alumni 2: Vikram Gokhale -->
+            <div class="stat-card" style="text-align: left; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 1.8rem; background: var(--card-bg); border-color: var(--border-color);">
+                <div style="width: 110px; height: 110px; border-radius: 50%; overflow: hidden; border: 3px solid var(--gold); margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.5);">
+                    <img src="Images/Vikram Gokhale.jpg" alt="Late Vikram Gokhale" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-size: 1.25rem; font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center; color: #fff;">Late Vikram Gokhale</h3>
+                <p style="font-size: 0.78rem; color: var(--gold); margin-bottom: 1rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Renowned National Award-Winning Actor</p>
+                <p style="font-size: 0.88rem; color: var(--text-muted); text-align: center; line-height: 1.6;">A towering titan of Indian theatre and cinema whose unmatched dramatic mastery deeply influenced generations of performing artists.</p>
+            </div>
+
+            <!-- Alumni 3: Pt. Sanjeev Abhyankar -->
+            <div class="stat-card" style="text-align: left; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 1.8rem; background: var(--card-bg); border-color: var(--border-color);">
+                <div style="width: 110px; height: 110px; border-radius: 50%; overflow: hidden; border: 3px solid var(--gold); margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.5);">
+                    <img src="Images/Pandit_Sanjeev_Abhyankar_000_20251007142058_500x500.jpg" alt="Pt. Sanjeev Abhyankar" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-size: 1.25rem; font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center; color: #fff;">Pt. Sanjeev Abhyankar</h3>
+                <p style="font-size: 0.78rem; color: var(--gold); margin-bottom: 1rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Classical Vocalist & Padma Shri Awardee</p>
+                <p style="font-size: 0.88rem; color: var(--text-muted); text-align: center; line-height: 1.6;">A virtuoso of Hindustani classical music (Mewati Gharana) who frequently returns to mentor and inspire campus vocalists.</p>
+            </div>
+
+            <!-- Alumni 4: Prakash Javdekar -->
+            <div class="stat-card" style="text-align: left; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 1.8rem; background: var(--card-bg); border-color: var(--border-color);">
+                <div style="width: 110px; height: 110px; border-radius: 50%; overflow: hidden; border: 3px solid var(--gold); margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(0,0,0,0.5);">
+                    <img src="Images/Shri_Prakash_Javadekar_MIB.jpg" alt="Shri Prakash Javadekar" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-size: 1.25rem; font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center; color: #fff;">Shri Prakash Javadekar</h3>
+                <p style="font-size: 0.78rem; color: var(--gold); margin-bottom: 1rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Prominent National Leader & Former Union Minister</p>
+                <p style="font-size: 0.88rem; color: var(--text-muted); text-align: center; line-height: 1.6;">A distinguished alumnus who has dedicated decades to national policy, public administration, and institutional governance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- The Journey Still Continues Banner Section -->
+    <section style="padding: 7rem 5%; background: linear-gradient(135deg, rgba(138,43,226,0.12), rgba(255,51,102,0.08)); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); text-align: center;">
+        <div style="max-width: 850px; margin: 0 auto;">
+            <div style="font-size: 2.5rem; color: var(--gold); margin-bottom: 1.2rem;">
+                <i class="fas fa-route"></i>
+            </div>
+            <h2 style="font-family: 'Cinzel', serif; font-size: clamp(2.2rem, 3.5vw, 3.2rem); color: #fff; margin-bottom: 1.5rem; font-weight: 700;">And the Journey Still Continues...</h2>
+            <p style="font-size: 1.2rem; color: #d0d0e0; line-height: 1.8; margin-bottom: 2.5rem; font-family: 'Playfair Display', serif; font-style: italic;">
+                "History is never confined to books; it echoes through every rehearsal in our halls, every applause in the auditorium, and every note struck by Agam Kalamandal. The torch of excellence burns brighter with each passing generation."
+            </p>
+            <a href="home.html#arts" class="btn btn-primary" style="padding: 0.9rem 2.8rem; border-radius: 30px; font-size: 1rem;">
+                <span>Explore Our Troupes</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="home.html" class="footer-logo">
+                    <div class="logo-icon" style="width: 32px; height: 32px; font-size: 0.9rem;">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <span>AGAM KALAMANDAL</span>
+                </a>
+                <p>The official cultural wing of M.E.S. Abasaheb Garware College, Pune. Fostering artistic brilliance in music, vocals, dance, and drama.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/agam.kalamandal?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" title="Agam Kalamandal Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us & Legacy</a></li>
+                    <li><a href="home.html#arts"><i class="fas fa-chevron-right"></i> Art Forms</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Performances</h3>
+                <ul>
+                    <li><a href="home.html#arts"><i class="fas fa-chevron-right"></i> Drums, Guitar & Folk</a></li>
+                    <li><a href="home.html#arts"><i class="fas fa-chevron-right"></i> Vocals & Choir</a></li>
+                    <li><a href="home.html#arts"><i class="fas fa-chevron-right"></i> नाटक</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p style="margin-bottom: 0.5rem;"><strong style="color: var(--gold);">Aditya Gawali (Tabla Visharad)</strong></p>
+                <p style="margin-bottom: 0.8rem;"><i class="fas fa-phone-alt" style="color: var(--primary-light);"></i> <a href="tel:9607749460" style="color: inherit; text-decoration: none;">9607749460</a></p>
+                <p style="margin-bottom: 0.5rem;"><a href="https://maps.app.goo.gl/9hP3FfJj8q2p7YtC7" target="_blank" style="color: inherit; text-decoration: none;"><i class="fas fa-map-marker-alt" style="color: var(--primary-light);"></i> M.E.S. Abasaheb Garware College, Karve Road, Deccan Gymkhana, Pune, Maharashtra</a></p>
+                <p><i class="fas fa-envelope" style="color: var(--primary-light);"></i> agam.kalamandal@garwarecollege.edu</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Agam Kalamandal - M.E.S. Abasaheb Garware College, Pune. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
